@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "generate-ts": "mesh typescript --output src/types.generated.ts",
     "start": "mesh serve"
   },
   "dependencies": {
     "@graphql-mesh/cli": "^0.11.6",
     "@graphql-mesh/openapi": "^0.10.1",
     "@graphql-mesh/json-schema": "^0.7.1",
-    "graphql": "^15.3.0",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
+    "graphql": "^15.3.0"
   }
 }
